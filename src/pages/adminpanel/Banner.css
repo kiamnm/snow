@@ -1,0 +1,68 @@
+table {
+    width: 100%;
+    table-layout: fixed; /* ستون‌ها اندازه ثابتی خواهند داشت */
+  }
+td{
+    
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+div.each-banner-item-container{
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  border-radius: 12px;
+  
+}
+div.each-banner-item-container .title{
+  border-bottom: 2px solid black;
+}
+
+div.each-banner-item-container div.info p{
+  white-space: wrap;
+  word-wrap: break-word;
+}
+
+div.each-banner-item-container div.text p.text{
+  text-align: center;
+}
+div.each-banner-item-container .border_bottom{
+  border-bottom: 1px solid rgb(160, 160, 160);
+}
+div.each-banner-item-container .action-icon-edit,.action-icon-delete{
+  cursor: pointer;
+}
+div.each-banner-item-container .h_30{
+height: 24px;
+}
+
+
+
+
+.edit-banner-input{
+  height: 35px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid rgb(121, 121, 121);
+  padding-left: 8px;
+}
+.edit-banner-textarea{
+  height: 100px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid rgb(121, 121, 121);
+  padding-left: 8px;
+}
+.edit-banner-textarea:focus{
+  border: 2px solid rgb(121, 121, 121);
+}
+.edit-banner-input:focus{
+  border: 2px solid rgb(121, 121, 121);
+}
+.edit-banner-btn-container{
+  height: 35px;
+}
+.minw_50{
+  min-width: 50%;
+}

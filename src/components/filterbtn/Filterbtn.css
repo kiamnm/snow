@@ -1,0 +1,38 @@
+.filter-btn-container .filter-btn{
+    font-size: 14px;
+}
+div.filter-btn-container  {
+    gap: 20px;
+}
+div.filter-btn-container button.filter-btn{
+    
+    border-radius: 6px;
+
+}
+.notactive{
+    border: 1px solid rgb(85, 85, 85);
+}
+.active{
+    border: 1px solid rgb(255, 255, 255);
+}
+@media screen and (max-width: 576px){
+    div.filter-btn-container  {
+        gap: 0px;
+    }
+    .filter-btn-container .filter-btn{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    div.filter-btn-container  {
+        gap: 10px;
+    }
+    
+}
+@media screen and (max-width: 992px){
+    div.filter-btn-container  {
+        gap: 15px;
+    }
+    
+}

@@ -1,0 +1,14 @@
+/* تنظیمات کلی برای Admin Panel */
+.admin-panel-component-container{
+    display: flex;
+    height: 100vh; /* ارتفاع کل صفحه */
+    
+  }
+  
+  /* تنظیمات محتوا */
+  .admin-panel-component-container .content-right {
+    flex: 1; /* استفاده از تمام فضای باقی‌مانده */
+    overflow-y: auto; /* فعال کردن اسکرول عمودی برای محتوای بخش content */
+    padding: 20px;
+    background-color: #ecf0f1;
+  }

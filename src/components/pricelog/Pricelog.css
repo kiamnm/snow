@@ -1,0 +1,20 @@
+.price-log-container {
+    border-radius: 12px;
+}
+div.price-log-container p.title{
+color: white;
+}
+.price-log-container img{
+    width: 30px;
+    height: 30px;
+}
+div.each-log-container div.right{
+    border: 2px solid #26CD7D;
+    background-color:#26CD7D ;
+    border-radius: 4px;
+    width: 4px;
+    
+}
+div.each-log-container{
+    border-radius: 4px ;
+}

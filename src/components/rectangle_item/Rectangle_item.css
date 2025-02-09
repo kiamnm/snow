@@ -1,0 +1,35 @@
+.rectangle_item_container {
+    border-radius: 8px;
+   
+width: 100%;
+height: 84px;
+    
+}
+
+.rectangle_item_container img.logo {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    outline: 6px solid rgb(39, 39, 39);
+}
+
+.rectangle_item_container img.trend {
+    width: 14px;
+    height: 14px;
+}
+
+@media screen and (max-width: 1300px) {
+    .rectangle_item_container {
+        width: 48%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .rectangle_item_container {
+        width: 100%;
+    }
+}
+
+
+
+
+

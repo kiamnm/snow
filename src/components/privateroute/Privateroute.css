@@ -1,0 +1,13 @@
+div.private-route-pending-container div.spiner-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+div.private-route-pending-container  p.waiting{
+    letter-spacing: 10px;
+}

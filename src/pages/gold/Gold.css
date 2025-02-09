@@ -1,0 +1,9 @@
+.currency-gold-container{
+    min-height: 100vh;
+}
+@media screen and (max-width:576px) {
+    .gold-page-container {
+        padding-bottom: 100px;
+    }
+    
+}

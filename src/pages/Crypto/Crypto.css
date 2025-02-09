@@ -1,0 +1,9 @@
+.crypto-gold-container{
+    min-height: 100vh;
+}
+@media screen and (max-width:576px) {
+    .crypto-page-container {
+        padding-bottom: 100px;
+    }
+    
+}

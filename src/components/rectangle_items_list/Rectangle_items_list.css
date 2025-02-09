@@ -1,0 +1,9 @@
+.rectangle_items_list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height: 90px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+

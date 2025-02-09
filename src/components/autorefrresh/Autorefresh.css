@@ -1,0 +1,106 @@
+/* ToggleSwitch.css */
+div.autorefresh-container{
+    z-index: 10000;
+}
+.toggle-switch-container {
+    width: 50px;
+    height: 24px;
+    border-radius: 30px; /* برای ایجاد شکل بیضی */
+    background-color: #c2c2c2; /* رنگ پس‌زمینه سفید */
+    position: relative;
+    
+    cursor: pointer;
+    transition: background-color 0.3s; /* برای تغییرات صاف رنگ پس‌زمینه */
+  }
+  
+  .toggle-switch-container.active {
+    background-color: #4CAF50; /* رنگ پس‌زمینه سبز زمانی که فعال است */
+    border: none;
+  }
+  
+  .toggle-switch-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; /* برای ایجاد دایره */
+    background-color: #fff; /* رنگ دایره سفید */
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    transition: left 0.3s; /* برای حرکت صاف دایره */
+  }
+  
+  .toggle-switch-container.active .toggle-switch-circle {
+    left: 26px; /* وقتی که فعال است، دایره به سمت راست حرکت می‌کند */
+    border: none;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+/* استایل برای container */
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+  }
+  
+  /* استایل برای toggle select */
+  .custom-select-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 10px;
+    background-color: white;
+    
+    border-radius: 30px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    width: 100%;
+    gap: 10px;
+  }
+  
+  /* استایل برای arrow */
+  .arrow-down {
+    font-size: 16px;
+  }
+  
+  
+  /* استایل برای نمایش dropdown */
+  .dropdown-options {
+    position: absolute;
+    top: 108%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* استایل برای هر گزینه در dropdown */
+  .dropdown-option {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    
+    
+  }
+  
+  .dropdown-option:hover {
+    background-color: #f0f0f0;
+    border-radius: 6px;
+  }
+  

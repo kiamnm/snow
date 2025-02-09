@@ -1,0 +1,18 @@
+div.home-page-container{
+    min-height: 100vh;
+
+}
+
+div.banner-container{
+    position: relative;
+    top: -60px;
+}
+div.banner-container div.swiper-initialized{
+    border-radius: 12px;
+}
+@media screen and (max-width:576px) {
+    div.banner-container{
+        position: relative;
+        top: -40px;
+    }
+}

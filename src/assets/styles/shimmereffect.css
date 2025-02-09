@@ -1,0 +1,88 @@
+.shimmer-placeholder {
+    width: 40px; /* عرض مشابه عکس */
+    height: 40px; /* ارتفاع مشابه عکس */
+    background: linear-gradient(
+      to right,
+      #f0f0f0 0%,
+      #e0e0e0 20%,
+      #f0f0f0 40%,
+      #f0f0f0 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite linear;
+    border-radius: 50%; /* اگر عکس دایره‌ای است */
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  
+  .hidden-img {
+    display: none;
+  }
+
+/* another component */
+/* شایمر برای تصویر */
+.shimmer-placeholder-rectangle {
+  width: 50px; /* عرض مشابه عکس */
+  height: 50px; /* ارتفاع مشابه عکس */
+  background: linear-gradient(
+    to right,
+    #f0f0f0 0%,
+    #e0e0e0 20%,
+    #f0f0f0 40%,
+    #f0f0f0 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+  border-radius: 50%; /* اگر عکس دایره‌ای است */
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.hidden-img {
+  display: none;
+}
+
+/* another component */
+/* شایمر برای تصویر */
+.shimmer-placeholder-list {
+  width: 40px; /* عرض مشابه عکس */
+  height: 40px; /* ارتفاع مشابه عکس */
+  background: linear-gradient(
+    to right,
+    #f0f0f0 0%,
+    #e0e0e0 20%,
+    #f0f0f0 40%,
+    #f0f0f0 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+  border-radius: 50%; /* اگر عکس دایره‌ای است */
+  margin-right: 10px; /* فاصله از متن */
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.hidden-img {
+  display: none;
+}

@@ -1,0 +1,25 @@
+
+   div.footer-container div.main div.left{
+   gap: 4vw;
+}
+div.footer-container div.main span.line{
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    border-radius: 1px;
+ }
+
+ div.footer-container .footerhr{
+    height: 3px;
+    background-color: rgb(184, 184, 184);
+ }
+ div.footer-container div.scroll-up{
+    width: 70px;
+    height: 70px;
+    border-radius: 8px;
+    background-color:#8540FF ;
+
+ }
+ div.footer-container  div.end span{
+    color: rgb(196, 196, 196);
+ }

@@ -1,0 +1,31 @@
+.vertical-table-container {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 800px;
+    overflow-x: auto;
+  }
+  
+  .vertical-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .vertical-table th,
+  .vertical-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .vertical-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  /* استایل جدید برای وسط‌چین کردن مقادیر Date */
+  .date-column {
+    font-weight: bold;
+    background-color: #f9f9f9;
+    vertical-align: middle; /* وسط‌چین عمودی */
+    text-align: center; /* وسط‌چین افقی */
+  }

@@ -1,0 +1,40 @@
+div.Adminlogin-form-container{
+ 
+    width: 400px;
+}
+div.Adminlogin-form-container img{
+    width: 60px;
+    height: 60px;
+}
+div.Adminlogin-form-container p.error{
+    color: red;
+}
+div.Adminlogin-form-container input.userpass{
+    outline: none;
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 5px;
+}
+input.userpass::placeholder{
+    font-size: 14px;
+}
+div.Adminlogin-form-container input.checkbox{
+    transform: translateY(1px);
+    cursor: pointer;
+}
+label.remember{
+    cursor: pointer;
+    user-select: none
+}
+span.star{
+    color: red;
+}
+div.Adminlogin-form-container button.login{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    transition: 0.5s;
+    
+}
+div.Adminlogin-form-container button.enable:hover{
+    background-color:#48484D ;
+}

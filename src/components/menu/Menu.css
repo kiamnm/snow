@@ -1,0 +1,20 @@
+div.menu-component-container{
+    width: 100%;
+    
+    z-index: 2;
+}
+div.menu-component-container div.menu-container{
+    gap: 30px;
+}
+
+
+@media screen and (max-width:576px) {
+    div.menu-component-container{
+        position: fixed;
+        bottom: 0px;
+    }
+    div.menu-component-container div.menu-container{
+        gap:0px;
+        
+    }
+}

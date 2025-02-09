@@ -1,0 +1,60 @@
+.list-item-container{
+    border-radius: 12px;
+    
+}
+.list-item-container img.logo{
+    width:48px;
+    height: 48px
+}
+div.list-item-container div.left div.right{
+    height: 100%;
+}
+
+div.price-sell-container{
+    width: 90px;
+}
+
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%); /* متن از سمت راست شروع می‌شود */
+    }
+    100% {
+      transform: translateX(-100%); /* متن به سمت چپ می‌رود */
+    }
+  }
+
+
+@media screen and (max-width:576px) {
+    .list-item-container img.logo{
+        width:48px;
+        height: 48px
+    }  
+}
+@media screen and (max-width:576px) {
+    
+    div.price-sell-container {
+        width: 80px; /* عرض ثابت برای div */
+        overflow: hidden; /* جلوگیری از نمایش متن اضافی که از div بیرون میزند */
+        white-space: nowrap; /* جلوگیری از شکستن خط */
+        
+      }
+      div.price-sell-container p.sell {
+        display: inline-block; /* باعث می‌شود که متن در کنار هم قرار بگیرد */
+        padding-left: 100%; /* این کار باعث می‌شود که متن از سمت راست وارد شود */
+        animation: scroll 6s linear infinite; /* حرکت افقی متن */
+      }
+      div.list-item-container p.subname{
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: 85px;
+        text-overflow: ellipsis;
+      }
+      div.list-item-container p.subname:hover{
+        white-space: wrap;
+        max-width: auto;
+        
+        text-overflow: inherit;
+      }
+}
+    

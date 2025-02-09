@@ -1,0 +1,54 @@
+
+
+  .carousel-container {
+   width: 100%;
+    
+    
+    height: 220px;
+    
+    
+  }
+  /* .swiperslide{
+    border-radius: 12px;
+    display: flex;
+    flex: column;
+    justify-content: center;
+    align-items: center;
+    
+  } */
+  
+  .swiper{
+    
+    width: 100%;
+    
+    
+    
+    
+  }
+  
+
+
+  .carousel-container {
+    
+    width: 100%;
+    margin: 0 auto; /* برای وسط چین کردن */
+    
+  }
+  
+  .swiper {
+    /* تنظیمات برای نمایش کامل کشوی Swiper */
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .swiper-slide {
+    /* تنظیمات برای هر اسلاید */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+ 
+  

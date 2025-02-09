@@ -1,0 +1,85 @@
+.converter-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+    margin: 0 auto;
+    position: relative;
+  }
+ 
+  .convert-component-container img{
+    width: 40px;
+    height: 40px;
+  }
+  .converter-box-container .input {
+    flex: 1; /* عرض مساوی برای inputها */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    height: 60px;
+    background-color: #1E1A25;
+    color: white;
+    outline: none;
+    width: 50%;
+    
+  }
+  .converter-box-container .input.left-input {
+    margin-right: -10px; /* فاصله منفی برای هم‌پوشانی عکس */
+  }
+  
+  .converter-box-container .input.right-input {
+    margin-left: -10px; /* فاصله منفی برای هم‌پوشانی عکس */
+  }
+  
+  .converter-box-container .divider {
+    width: 50px; /* عرض عکس */
+    height: 50px; /* ارتفاع عکس */
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+  }
+
+
+
+
+
+ .ps-relative{
+  position: relative;
+ }
+ 
+
+ 
+ div.dropdown-container{
+  width: 300px;
+  background-color:#1e1e20;
+  
+  scrollbar-width: thin; 
+  scrollbar-color: #bebebe #1A1521;
+  position: absolute;
+    
+  height: 400px;
+  overflow-y: scroll;
+  
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  border-radius: 5px;
+  z-index: 1000;
+  }
+  
+  div.dropdown-item{
+    transition: 0.2s;
+  }
+  div.dropdown-container div.dropdown-item:hover{
+background-color:#313031; ;
+  }
+  
+  @media screen and (max-width:600px) {
+    div.dropdown-container{
+      width: 200px;
+    }
+  }

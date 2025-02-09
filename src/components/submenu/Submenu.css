@@ -1,0 +1,52 @@
+@media screen and (max-width: 576px) {
+    div.submenucontainer div.right-container{
+    width: 100%;
+    }
+}
+div.submenu-home{
+    padding-bottom: 100px;
+}
+@media screen and (max-width:576px){
+    div.submenu-home{
+        padding-bottom: 80px;
+    }
+}
+div.submenucontainer .refresh, .message{
+    position: relative;
+    z-index: 1000;
+}
+div.submenucontainer div.other-page-menu-title-container img{
+    width: 24px;
+    height: 24px;
+}
+div.submenucontainer div.right-container img{
+width: 24px;
+height: 24px;
+}
+div.submenucontainer div.top-container img{
+    width: 24px;
+    height: 24px;
+}
+.notvisible{
+    visibility: hidden;
+}
+
+@media screen and (max-width:576px){
+    .notvisible{
+        visibility: visible;
+    }
+}
+@media screen and (max-width:768px){
+    .submenucontainer div.left-container div.top-container p{
+        font-weight:550 ;
+    }
+    .submenucontainer div.left-container div.bottom-container p{
+        font-weight:500 ;
+    }
+}
+
+
+
+
+
+

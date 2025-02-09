@@ -1,0 +1,132 @@
+div.chat-page-container{
+    padding-top: 5vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+div.chat-page-container img.profile{
+    width:64px ;
+    height: 64px;
+}
+
+div.chat-page-container div.img-container{
+    flex: 0 0 auto; 
+}
+div.chat-page-container img.back-icon{
+    width: 24px;
+    height: 24px;
+}
+div.chat-page-container p.global{
+    font-size: min(5vw,24px) ;
+}
+
+div.chat-page-container div.gradiant-line{
+    width: 100%;
+    height: 1px;
+    background: radial-gradient(circle, rgba(255, 255, 255,0.9), rgba(255, 255, 255,0.6),rgba(255, 255, 255,0.5), rgba(255, 255, 255,0.4),rgba(255, 255, 255,0.3),rgba(255, 255, 255,0.2),rgba(255, 255, 255,0.1),rgba(255, 255, 255,0));
+}
+
+
+div.chat-texts-container{
+    
+    width: 100%;
+    flex: 1 1 auto; /* پر کردن فضای موجود */
+    overflow-y: auto;
+    
+    
+  
+}
+p.client{
+    background-color: #3F5AEF;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 16px;
+    
+    
+}
+p.server{
+    background-color: 16121D;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid #DEDFEA70;
+    font-size: 16px;
+    
+}
+.client span.time{
+    font-size: 14px;
+    align-self: end;
+}
+div.chat-texts-container  .client{
+    align-self: flex-end;
+}
+div.chat-texts-container  .server{
+    align-self: flex-start;
+}
+
+div.chat-page-container div.chat-input-container{
+    position: relative; /* از حالت fixed خارج شود */
+    margin-top: auto; /* خودکار در پایین قرار می‌گیرد */
+    height: 60px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+div.chat-page-container div.chat-input-container input{
+   border: none;
+   height: 50px;
+   border-radius: 12px;
+}
+div.chat-page-container div.handle-input{
+    position: relative;
+}
+div.chat-page-container img.send{
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    right: 10px;
+    
+
+}
+.send-chat:focus {
+    outline: 1px solid rgb(58, 58, 58);
+    
+    
+  }
+@media screen and (max-width:576px) {
+    p.client{
+       
+        font-size: 12px;
+        
+        
+    }
+    p.server{
+        
+        font-size: 12px;
+        
+    }
+    div.chat-page-container span.time{
+        font-size: 11px;
+    }
+    div.chat-page-container div.chat-input-container{
+        position: fixed;
+        bottom: 30px;
+        height: 60px;
+        width: calc( 100% - 8vw );
+        border-radius: 12px;
+    }
+    div.chat-texts-container{
+        padding-bottom: 90px;
+    }
+    div.chat-page-container img.profile{
+        width:50px ;
+        height: 50px;
+    }
+    
+}
+ 
+
+
+.ScrollbarsCustom-Thumb{
+    
+    background-color: rgb(82, 82, 82)!important;
+}

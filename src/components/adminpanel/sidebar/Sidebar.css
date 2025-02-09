@@ -1,0 +1,49 @@
+.sidebar {
+    width: 180px;
+    height: 100vh; /* ارتفاع کامل برای پوشش کل صفحه */
+    display: flex;
+    flex-direction: column;
+    
+    transition: width 0.3s ease;
+    
+  }
+  
+  .collapsed {
+    width: 80px;
+  }
+ 
+  /* سایر تنظیمات */
+  .sidebar-tabs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    width: 100%;
+    overflow-y: auto; /* فعال کردن اسکرول عمودی برای لیست */
+  }
+ 
+  
+  .sidebar .arrow-right-toggle{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition:  0.5s ease;
+    
+  }
+  .rotatet-180{
+    transform: rotate(-180deg);
+  }
+  .logout-icon{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  div.sidebar-logo img{
+    width: 60px;
+    height: 60px;
+  }
+  .tab.active {
+    background-color: white;
+    border-radius: 10px;
+  }
+  

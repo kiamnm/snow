@@ -1,0 +1,18 @@
+div.converter-page-container div.handleposition{
+    position: relative;
+    top: -80px;
+}
+div.converter-page-container div.converter-list-container{
+   margin-top: -50px;
+   
+}
+
+div.converter-page-container{
+    min-height: 100vh;
+}
+div.convert-component-container div.left{
+   max-width: 200px;
+  }
+  div.convert-component-container div.right{
+    max-width: 200px;
+   }

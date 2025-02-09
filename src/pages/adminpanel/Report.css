@@ -1,0 +1,9 @@
+.total-installationstatic  .static-title{
+    border-radius: 8px;
+}
+.total-installationstatic {
+    border-bottom: 1px solid rgb(134, 134, 134);
+}
+div.aim{
+    background-color: red!important;
+}

@@ -1,0 +1,63 @@
+
+/* .box_item_container{
+    width: 100%; 
+    height: 100%;
+    border-radius: 12px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px; 
+    
+}
+
+.box_item_container img.dollar-logo{
+    width: 52px;
+    height: 52px;
+}
+
+.box_item_container img.trend {
+    width: 18px;
+    height: 18px;
+}
+
+ */
+
+
+
+ .box_item_container{
+    width: 100%; 
+    height: 100%;
+    border-radius: 12px;
+    position: relative;
+    overflow: "hidden";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+   
+    
+}
+
+.box_item_container img.dollar-logo{
+    width: 52px;
+    height: 52px;
+}
+
+.box_item_container img.trend {
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+  
