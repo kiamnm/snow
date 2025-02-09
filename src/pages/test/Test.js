@@ -57,6 +57,7 @@ export default function TestBox() {
         justifyContent: "space-between",
       }}
     >
+    <h1>salam</h1>
       {/* بالای باکس: لوگو و نوشته */}
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <img
